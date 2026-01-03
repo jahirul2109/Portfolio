@@ -12,15 +12,18 @@ body {
     background-repeat: no-repeat;
     background-position: left top, bottom right;
     background-size: contain, 700px;
-    width: 1335px;
+    width: 100%;
     background-color: #FFF8F3;
 }
-
 nav {
+    max-width: 82%;
+    margin: 0 auto;
+}
+nav .nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 100px;
+    padding: 50px 0px;
 
 }
 nav .name {
@@ -43,6 +46,7 @@ nav li a {
 }
 .dark-2 {
     color: #474747;
+    font-size: 17px;
 }
 .btn {
     color: white;
@@ -53,13 +57,16 @@ nav li a {
     font-weight: bold;
     font-size: 17px;
 }
+#banner {
+    max-width: 82%;
+    margin: 0px auto;
 
+}
 
 #banner .banner-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 100px 0px 100px;
 }
 .banner-content .greatings{
     font-size: 38px;
@@ -80,4 +87,80 @@ nav li a {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about .about-main {
+    width: 82%;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    padding: 100px 170px;
+    margin: 100px auto;
+
+}
+#about .about-content {
+    width: 700px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 27px;
+    padding: 0px 10px;
+    text-align: center;
+}
+#about .info {
+    display: flex;
+    justify-content: space-between;
+}
+#about .hline {
+    font-size: 17px;
+    line-height: 27px;
+}
+#about .subtitle {
+    line-height: 27px;
+    font-size: 16px;
+}
+#about .vlue {
+    font-size: 17px;
+    font-weight: 600;
+}
+#learing-experence .title {
+    margin-bottom: 30px;
+}
+#about .title, #learing-experence .title {
+    font-size: 28px;
+    font-weight: bold;
+}
+#learing-experence .hline {
+    font-size: 18px;
+    font-weight: bold;
+}
+#learing-experence .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px rgba(0, 0, 0, 0.06);
+}
+.learing-content {
+    max-width: 82%;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    margin: 0px auto;
+    margin-bottom: 100px;
+
+}
+.experence-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.txt {
+    text-align: center;
 }
