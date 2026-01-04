@@ -22,6 +22,10 @@ nav {
     max-width: 82%;
     margin: 0 auto;
 }
+.nav a {
+    text-decoration: none;
+    color: black;
+}
 nav .nav{
     display: flex;
     justify-content: space-between;
