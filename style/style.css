@@ -22,7 +22,7 @@ nav {
     max-width: 82%;
     margin: 0 auto;
 }
-.nav a {
+.nav .anchor {
     text-decoration: none;
     color: black;
 }
