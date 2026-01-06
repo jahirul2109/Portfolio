@@ -112,16 +112,17 @@ nav li a {
     width: 82%;
     background-color: #FFF8F3;
     border-radius: 10px;
-    padding: 100px 170px;
     margin: 100px auto;
 }
 #about .about-content {
+    width: 80%;
+    margin: 100px auto;
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 27px;
-    padding: 0px 10px;
+    padding: 10px 20px;
     text-align: center;
 }
 #about .info {
