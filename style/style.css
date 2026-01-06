@@ -102,7 +102,7 @@ nav li a {
 /* header end  */
 
 /* main start  */
-/* about star */
+/* about main star */
 #about {
     display: flex;
     justify-content: center;
@@ -116,7 +116,6 @@ nav li a {
     margin: 100px auto;
 }
 #about .about-content {
-    width: 700px;
     background-color: white;
     display: flex;
     flex-direction: column;
